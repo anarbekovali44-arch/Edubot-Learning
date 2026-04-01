@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+      footer{
+        margin-top: 200px;
+      }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./index.html" style="color: white;">MyProfil</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html" style="color: white;">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./cources.html" style="color: white;">Cources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./register.html" style="color: white;">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html" style="color: white;">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="text-center my-5">
+    <h2>Contact Us</h2>
+</div>
+
+<form class="ms-5">
+
+<div class="mb-3">
+    <label class="form-label">Name</label>
+    <input type="text" class="form-control">
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Email</label>
+    <input type="email" class="form-control">
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Message</label>
+    <textarea class="form-control" rows="4"></textarea>
+</div>
+
+<div class="mb-3">
+<button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Bootstrap</strong>
+      <small>11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hello, world! This is a toast message.
+    </div>
+  </div>
+</div>
+</div>
+
+</form>
+
+<footer class="bg-dark text-white text-center p-4">
+  @2026 MyProfil
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
